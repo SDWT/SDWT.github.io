@@ -80,7 +80,7 @@ a {
 }
 
 .SocialMediaNetworks:hover {
-    background-color: #333;
+    background-color: #000;
     transition: all 0.9s ease 0s;
     -moz-transition: all 0.9s ease 0s;
     -webkit-transition: all 0.9s ease 0s;
@@ -89,7 +89,8 @@ a {
 
 .SocialMediaNetworks:hover i,
 .SocialMediaNetworks:hover svg {
-    color: #DDD;
+    /*color: #DDD;*/
+    color: #22B14C;
     transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -webkit-transition: all 0.5s ease 0s;
