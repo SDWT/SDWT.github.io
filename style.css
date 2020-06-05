@@ -3,11 +3,59 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
 body, html {
     height: 100%;
 }
 
-.header, .footer {
+.header {
+    /*display: none;*/
+    background-color: #000;
+    color: #22B14C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoText {
+    color: #22B14C;
+    font-size: 26px;
+    font-style:italic;
+    font-weight:600;
+    text-decoration-line:none;
+    margin: 0px 5px;
+}
+
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+
+.headerMenu a {
+    margin: 0px 5px;
+    font-size:26px;
+}
+
+.headerLogo img {
+    height: 45px;
+}
+
+.footer {
     display: none;
 }
 
@@ -30,10 +78,6 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-a {
-    text-decoration: none;
 }
 
 .photo {
